@@ -1,0 +1,53 @@
+body{
+  background: #D3DCE5;
+  width: 100%;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.col{
+  height: 400px;
+  display: inline-block;
+  float: left;
+  margin: 4em auto;
+  box-sizing: border-box;
+  padding: 2em 0 0 2em;
+}
+.wid_45{
+  width: 45%;
+}
+.wid_5{
+  width: 2%;
+}
+
+#validation_on_button_press{
+  width:100%;
+}
+
+#seperator{
+  width: 1px;
+  height: 400px;
+  background-color: black;
+  width: 1px;
+}
+
+#validation_while_typing{
+  width:100%;
+}
+
+.green_text{
+  color: green;
+}
+.red_text{
+  color: red;
+}
+
+input:focus{
+  outline: none;
+}
+.input_on_err{
+  box-shadow: 0 0 5px #EA485E;
+  border: 1px solid #EA485E;
+}

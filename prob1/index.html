@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Problem 1</title>
+
+  <link rel="stylesheet" href="index.css">
+
+  <script src="index.js" charset="utf-8"></script>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Left Section: See Result on Pressing Button -->
+    <div class="col wid_45">
+      <div id="validation_on_button_press">
+        <h2>Validation On Button Press:</h2>
+        <label for="name">Input Name:</label>
+        <input type="text" name="name" id="name_left">
+        &nbsp;&nbsp;
+        <span id="error_left"></span>
+        <br><br>
+        <button onclick="validateInput('name_left', 'error_left')">Validate</button>
+      </div>
+    </div>
+
+    <!-- Seperation Line -->
+    <div class="col wid_5">
+      <div id="seperator"></div>
+    </div>
+
+    <!-- See Results Soon as you start Typing (On-the-go) -->
+    <div class="col wid_45">
+      <div id="validation_while_typing">
+        <h2>Validation While Typing:</h2>
+        <label for="name">Input Name:</label>
+        <input type="text" name="name" id="name_right" oninput="validateInput('name_right', 'error_right')">
+        &nbsp;&nbsp;
+        <span id="error_right"></span>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

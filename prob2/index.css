@@ -1,0 +1,43 @@
+body{
+  background: #D3DCE5;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+#head{
+  height: 60px;
+}
+
+input:focus{
+  outline: none;
+}
+#error{
+  color: red;
+  margin: 15px;
+}
+
+#result_box{
+  color: green;
+}
+.text_center{
+  text-align: center;
+}
+.letter_spacing{
+  margin: 4px;
+}
+
+.num_width{
+  display: inline-block;
+  width: 28px;
+}
+
+hr.seperation {
+  border-style: solid;
+  border-color: #3F4547;
+  border-width: 1px 0 0 0;
+  margin: 20px 0;
+}

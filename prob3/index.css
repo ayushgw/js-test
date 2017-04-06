@@ -1,0 +1,38 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#cover_image{
+  max-width: 100%;
+}
+
+#box{
+  width: 100%;
+  margin: 5px auto;
+  padding: 30px 0;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-family: serif;
+  background-color: #F25C70;
+  border: 10px solid #BCB5B6;
+  transition:all 0.5s ease;
+  box-sizing: border-box;
+}
+
+.fix{
+  position: fixed;
+  top: -18px;
+}
+.unfix{
+  position: static;
+  top: 0px;
+}
+
+.extraspace{
+  height: 1200px;
+  background-color: #D3DCE5;
+}

@@ -11,7 +11,7 @@
 <body>
   <div class="container">
     <header id="head" class="text_center">
-      <label for="number">Enter a number (max 15):</label>
+      <label for="number">Enter a number (max 10):</label>
       <input type="number" id="input_box">
       <button type="button" onclick="constructPyramid()">Contruct Pyramid</button>
     </header>
